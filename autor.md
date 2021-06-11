@@ -2,9 +2,9 @@
 
 Preencha os dados abaixo para identificar a autoria do trabalho.
 
-- Nome: *\<insira seu nome aqui>*
-- Email: *\<insira seu email aqui>*
-- Turma: *\<insira sua turma aqui>*
+- Nome: Gustavo da Silva Ferreira
+- Email: gustavo.ferreira.110@ufrn.edu.br
+- Turma: IMD0030-T01
 
 # Questões Finalizadas
 
