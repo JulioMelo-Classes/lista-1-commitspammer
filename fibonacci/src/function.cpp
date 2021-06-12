@@ -1,9 +1,16 @@
 #include "function.h"
 
-std::vector<unsigned int> fib_below_n( unsigned int n )
+std::vector<unsigned int> fib_below_n(unsigned int n)
 {
-    // TODO: adicione o seu código aqui.
-
-    // TODO: Isto é apenas um STUB. Troque o retorno pelo que você julgar correto.
-    return std::vector<unsigned int>{};
+	if (n <= 1)
+		return std::vector<unsigned int> {};
+	std::vector<unsigned int> terms {1, 1};
+	unsigned int i;
+	do {
+		//i = terms[terms.size()-1] + terms[terms.size()-2];
+		i = terms.end()[-1] + terms.end()[-2];
+		if (i < n)
+			terms.push_back(i);
+	} while (i < n);
+	return terms;
 }
