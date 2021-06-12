@@ -9,7 +9,7 @@ Preencha os dados abaixo para identificar a autoria do trabalho.
 # Questões Finalizadas
 
 - [x] Negativos 5
-- [ ] Soma Vizinhos
+- [x] Soma Vizinhos
 - [ ] Intervalos
 - [ ] Fibonacci
 - [ ] Minmax
