@@ -1,6 +1,7 @@
 #include "function.h"
+#include <utility>
 
-/*! 
+/*!
  * Finds and returns a pair with the first instance of the smallest element
  * and the last instance of the largest element in an array.
  *
@@ -10,10 +11,17 @@
  * @return A pair of indexes to the first smallest and last largest values.
  */
 
-std::pair<int,int> min_max( int V[], size_t n )
+std::pair<int,int> min_max(int V[], std::size_t n)
 {
-    // TODO: Adicione aqui sua solução.
-
-    // TODO: Isso é apenas um STUB. Substitua com seu retorno correto.
-    return { -1, -1 };
+	if (n <= 0)
+		return {-1, -1};
+	int large_i {0};
+	int small_i {0};
+	for (int i = 0; i < n; ++i) {
+		if (V[i] >= V[large_i])
+			large_i = i;
+		if (V[i] < V[small_i])
+			small_i = i;
+	}
+	return {small_i, large_i};
 }
