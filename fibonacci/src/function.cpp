@@ -3,7 +3,7 @@
 std::vector<unsigned int> fib_below_n(unsigned int n)
 {
 	if (n <= 1)
-		return std::vector<unsigned int> {};
+		return {};
 	std::vector<unsigned int> terms {1, 1};
 	unsigned int i;
 	do {

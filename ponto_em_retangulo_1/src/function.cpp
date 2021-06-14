@@ -5,7 +5,7 @@ using namespace std;
  * Verifica se um ponto está dentro de um retângulo.
  */
 
-location_t pt_in_rect( const Ponto &IE, const Ponto &SD, const Ponto &P )
+location_t pt_in_rect(const Ponto &IE, const Ponto &SD, const Ponto &P)
 {
 	if (P.x < IE.x || P.x > SD.x)
 		return location_t::OUTSIDE;
