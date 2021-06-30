@@ -9,6 +9,9 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+/*
+ok
+*/
 int main(void)
 {
 	int first, consec;

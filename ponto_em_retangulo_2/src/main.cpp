@@ -30,6 +30,7 @@ vector<Ponto> get_coordinates()
 	return coords;
 }
 
+
 void fix_coordinates(vector<Ponto>& coords)
 {
 	if (coords[0].x > coords[1].x)
@@ -37,7 +38,7 @@ void fix_coordinates(vector<Ponto>& coords)
 	if (coords[0].y > coords[1].y)
 		swap(coords[0].y, coords[1].y);
 }
-
+/*ok!*/
 int main(void)
 {
 	while (true) {

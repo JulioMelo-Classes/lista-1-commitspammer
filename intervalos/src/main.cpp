@@ -39,7 +39,9 @@ vector<double> get_interval_ratio(vector<int> list)
 		x = x * 100 / list.size();
 	return ratios;
 }
-
+/*
+blz! meio overkill para essa questão, mas ok
+*/
 int main(void)
 {
 	vector<int> input = get_input();
